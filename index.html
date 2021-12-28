@@ -21,9 +21,7 @@
 
       let painting = false;
       let last;
-      console.log(1);
       var isTouchDevice = 'ontouchstart' in document.documentElement;
-      console.log(2);
       if (isTouchDevice) {
         canvas.ontouchstart = (e) => {
           let x = e.touches[0].clientX;
